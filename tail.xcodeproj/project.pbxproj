@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		FD73E8212484F4C90085D26B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD73E8202484F4C90085D26B /* AppDelegate.swift */; };
 		FD73E8232484F4C90085D26B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD73E8222484F4C90085D26B /* SceneDelegate.swift */; };
-		FD73E8252484F4C90085D26B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD73E8242484F4C90085D26B /* ContentView.swift */; };
+		FD73E8252484F4C90085D26B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD73E8242484F4C90085D26B /* Home.swift */; };
 		FD73E8272484F4CA0085D26B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD73E8262484F4CA0085D26B /* Assets.xcassets */; };
 		FD73E82A2484F4CA0085D26B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD73E8292484F4CA0085D26B /* Preview Assets.xcassets */; };
 		FD73E82D2484F4CA0085D26B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD73E82B2484F4CA0085D26B /* LaunchScreen.storyboard */; };
+		FD73E8362484F7080085D26B /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = FD73E8352484F7080085D26B /* Apollo */; };
+		FD73E8382484F7080085D26B /* ApolloCore in Frameworks */ = {isa = PBXBuildFile; productRef = FD73E8372484F7080085D26B /* ApolloCore */; };
+		FD73E83A2484F7BC0085D26B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD73E8392484F7BC0085D26B /* Data.swift */; };
+		FD73E83C2484F8A20085D26B /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD73E83B2484F8A20085D26B /* Drink.swift */; };
+		FD73E83E2484F9640085D26B /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD73E83D2484F9640085D26B /* DrinkItem.swift */; };
+		FD73E8402484FA220085D26B /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = FD73E83F2484FA220085D26B /* drinks.json */; };
+		FD73E8422484FD020085D26B /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD73E8412484FD020085D26B /* DrinkRow.swift */; };
+		FD73E844248501D50085D26B /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD73E843248501D50085D26B /* DrinkDetail.swift */; };
+		FD73E84A248510D60085D26B /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD73E849248510D60085D26B /* Rating.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD73E81D2484F4C90085D26B /* tail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD73E8202484F4C90085D26B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD73E8222484F4C90085D26B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD73E8242484F4C90085D26B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD73E8242484F4C90085D26B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		FD73E8262484F4CA0085D26B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD73E8292484F4CA0085D26B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD73E82C2484F4CA0085D26B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD73E82E2484F4CA0085D26B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD73E8392484F7BC0085D26B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		FD73E83B2484F8A20085D26B /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		FD73E83D2484F9640085D26B /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
+		FD73E83F2484FA220085D26B /* drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinks.json; sourceTree = "<group>"; };
+		FD73E8412484FD020085D26B /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
+		FD73E843248501D50085D26B /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
+		FD73E849248510D60085D26B /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD73E8382484F7080085D26B /* ApolloCore in Frameworks */,
+				FD73E8362484F7080085D26B /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +74,11 @@
 		FD73E81F2484F4C90085D26B /* tail */ = {
 			isa = PBXGroup;
 			children = (
+				FD73E848248509FA0085D26B /* data */,
 				FD73E8202484F4C90085D26B /* AppDelegate.swift */,
 				FD73E8222484F4C90085D26B /* SceneDelegate.swift */,
-				FD73E8242484F4C90085D26B /* ContentView.swift */,
+				FD73E846248507B50085D26B /* Models */,
+				FD73E845248507AB0085D26B /* Views */,
 				FD73E8262484F4CA0085D26B /* Assets.xcassets */,
 				FD73E82B2484F4CA0085D26B /* LaunchScreen.storyboard */,
 				FD73E82E2484F4CA0085D26B /* Info.plist */,
@@ -73,6 +93,43 @@
 				FD73E8292484F4CA0085D26B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD73E845248507AB0085D26B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD73E8472485093C0085D26B /* Home */,
+				FD73E843248501D50085D26B /* DrinkDetail.swift */,
+				FD73E83D2484F9640085D26B /* DrinkItem.swift */,
+				FD73E8412484FD020085D26B /* DrinkRow.swift */,
+				FD73E849248510D60085D26B /* Rating.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD73E846248507B50085D26B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FD73E8392484F7BC0085D26B /* Data.swift */,
+				FD73E83B2484F8A20085D26B /* Drink.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FD73E8472485093C0085D26B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FD73E8242484F4C90085D26B /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FD73E848248509FA0085D26B /* data */ = {
+			isa = PBXGroup;
+			children = (
+				FD73E83F2484FA220085D26B /* drinks.json */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +148,10 @@
 			dependencies = (
 			);
 			name = tail;
+			packageProductDependencies = (
+				FD73E8352484F7080085D26B /* Apollo */,
+				FD73E8372484F7080085D26B /* ApolloCore */,
+			);
 			productName = tail;
 			productReference = FD73E81D2484F4C90085D26B /* tail.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +180,9 @@
 				Base,
 			);
 			mainGroup = FD73E8142484F4C90085D26B;
+			packageReferences = (
+				FD73E8342484F7080085D26B /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = FD73E81E2484F4C90085D26B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -135,6 +199,7 @@
 			files = (
 				FD73E82D2484F4CA0085D26B /* LaunchScreen.storyboard in Resources */,
 				FD73E82A2484F4CA0085D26B /* Preview Assets.xcassets in Resources */,
+				FD73E8402484FA220085D26B /* drinks.json in Resources */,
 				FD73E8272484F4CA0085D26B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,7 +213,13 @@
 			files = (
 				FD73E8212484F4C90085D26B /* AppDelegate.swift in Sources */,
 				FD73E8232484F4C90085D26B /* SceneDelegate.swift in Sources */,
-				FD73E8252484F4C90085D26B /* ContentView.swift in Sources */,
+				FD73E8422484FD020085D26B /* DrinkRow.swift in Sources */,
+				FD73E8252484F4C90085D26B /* Home.swift in Sources */,
+				FD73E83C2484F8A20085D26B /* Drink.swift in Sources */,
+				FD73E83A2484F7BC0085D26B /* Data.swift in Sources */,
+				FD73E84A248510D60085D26B /* Rating.swift in Sources */,
+				FD73E83E2484F9640085D26B /* DrinkItem.swift in Sources */,
+				FD73E844248501D50085D26B /* DrinkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -342,6 +413,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD73E8342484F7080085D26B /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.28.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD73E8352484F7080085D26B /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD73E8342484F7080085D26B /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		FD73E8372484F7080085D26B /* ApolloCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD73E8342484F7080085D26B /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FD73E8152484F4C90085D26B /* Project object */;
 }

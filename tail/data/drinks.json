@@ -1,0 +1,38 @@
+{
+  "trending": [
+    {
+      "id": 1,
+      "name": "Mojito",
+      "shortDescription": "Sweet, Refreshing",
+      "description": "A classic Island drink of fresh lime and sweet muddled mint, the Mojito became a favorite during the Prohibition era when rum flights would carry thirsty travellers from Miami to Havana under the cover of night.",
+      "imageName": "Mojito",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Paper Plane",
+      "shortDescription": "Sour, Bitter",
+      "description": "Sour, Bitter",
+      "imageName": "PaperPlane",
+      "rating": 3.1
+    }
+  ],
+  "suggested": [
+    {
+      "id": 2,
+      "name": "Paper Plane",
+      "shortDescription": "Sour, Bitter",
+      "description": "Sour, Bitter",
+      "imageName": "PaperPlane",
+      "rating": 3.1
+    },
+    {
+      "id": 1,
+      "name": "Mojito",
+      "shortDescription": "Sweet, Refreshing",
+      "description": "A classic Island drink of fresh lime and sweet muddled mint, the Mojito became a favorite during the Prohibition era when rum flights would carry thirsty travellers from Miami to Havana under the cover of night.",
+      "imageName": "Mojito",
+      "rating": 4.5
+    }
+  ]
+}
