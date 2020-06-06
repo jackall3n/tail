@@ -23,11 +23,8 @@ struct DrinkRow: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top) {
                     ForEach(self.drinks, id: \.name) { drink in
-                        
-                            DrinkItem(drink: drink)
-                                .padding(.trailing, 30)
-                        
-                        
+                        DrinkItem(drink: drink)
+                            .padding(.trailing, 30)
                     }
                 }
                 .padding(.horizontal)

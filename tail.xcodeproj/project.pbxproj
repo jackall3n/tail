@@ -22,6 +22,8 @@
 		FD73E8422484FD020085D26B /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD73E8412484FD020085D26B /* DrinkRow.swift */; };
 		FD73E844248501D50085D26B /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD73E843248501D50085D26B /* DrinkDetail.swift */; };
 		FD73E84A248510D60085D26B /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD73E849248510D60085D26B /* Rating.swift */; };
+		FD73E84C248532E30085D26B /* DrinkLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD73E84B248532E30085D26B /* DrinkLesson.swift */; };
+		FD73E871248B92D00085D26B /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD73E870248B92D00085D26B /* LessonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		FD73E8412484FD020085D26B /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
 		FD73E843248501D50085D26B /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
 		FD73E849248510D60085D26B /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		FD73E84B248532E30085D26B /* DrinkLesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkLesson.swift; sourceTree = "<group>"; };
+		FD73E870248B92D00085D26B /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				FD73E83D2484F9640085D26B /* DrinkItem.swift */,
 				FD73E8412484FD020085D26B /* DrinkRow.swift */,
 				FD73E849248510D60085D26B /* Rating.swift */,
+				FD73E84B248532E30085D26B /* DrinkLesson.swift */,
+				FD73E870248B92D00085D26B /* LessonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -214,9 +220,11 @@
 				FD73E8212484F4C90085D26B /* AppDelegate.swift in Sources */,
 				FD73E8232484F4C90085D26B /* SceneDelegate.swift in Sources */,
 				FD73E8422484FD020085D26B /* DrinkRow.swift in Sources */,
+				FD73E871248B92D00085D26B /* LessonView.swift in Sources */,
 				FD73E8252484F4C90085D26B /* Home.swift in Sources */,
 				FD73E83C2484F8A20085D26B /* Drink.swift in Sources */,
 				FD73E83A2484F7BC0085D26B /* Data.swift in Sources */,
+				FD73E84C248532E30085D26B /* DrinkLesson.swift in Sources */,
 				FD73E84A248510D60085D26B /* Rating.swift in Sources */,
 				FD73E83E2484F9640085D26B /* DrinkItem.swift in Sources */,
 				FD73E844248501D50085D26B /* DrinkDetail.swift in Sources */,

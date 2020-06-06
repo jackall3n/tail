@@ -8,11 +8,14 @@
 
 import SwiftUI
 
+typealias StartLessonFunc = () -> Void
+
 struct DrinkItem: View {
     var drink: Drink
     
     @State var showDetails = false
-
+    @State var showLesson = false
+    
     var body: some View {
         Button(action: {
             self.showDetails.toggle()
@@ -41,9 +44,18 @@ struct DrinkItem: View {
                             .multilineTextAlignment(.leading)
                 }
             }
+            NavigationLink(destination: LessonView(showLession: self.$showLesson), isActive: self.$showLesson) {
+                Text("")
+            }.hidden()
+                .navigationBarTitle("", displayMode: .inline)
+            .navigationBarBackButtonHidden(true)
+            .navigationBarHidden(true)
         }
         .sheet(isPresented: $showDetails) {
-            DrinkDetail(drink: self.drink)
+            DrinkDetail(drink: self.drink, startLesson: {
+                self.showDetails = false;
+                self.showLesson = true
+            })
         }
         
     }

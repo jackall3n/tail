@@ -53,9 +53,14 @@ struct Trending: View {
                             .padding(.top)
 
                 }
-            }.navigationBarHidden(true)
-                    .navigationBarTitle(Text(""))
+            }
+                    .navigationBarHidden(true)
+                    .navigationBarTitle("", displayMode: .inline)
+                    .navigationBarBackButtonHidden(true)
         }
+                .navigationBarBackButtonHidden(true)
+                .navigationBarHidden(true)
+                .navigationBarTitle("", displayMode: .inline)
     }
 }
 

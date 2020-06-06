@@ -8,8 +8,12 @@
 
 import SwiftUI
 
+
 struct DrinkDetail: View {
     var drink: Drink
+    
+    var startLesson: () -> Void
+    
     
     var body: some View {
         
@@ -30,12 +34,15 @@ struct DrinkDetail: View {
             .navigationBarHidden(true)
             
             HStack {
-                Button(action: {}) {
+                Button(action: {
+                    self.startLesson()
+                }) {
                     Spacer()
                     Text("Master the \(drink.name)")
                         .padding(10)
                     Spacer()
                 }
+                
                 .background(Color(UIColor(red: 1, green: 0, blue: 0, alpha: 0.7)))
                 .cornerRadius(10)
                 .font(.headline)
@@ -73,7 +80,9 @@ struct DrinkHeader : View {
 
             }
          
-        }.navigationBarBackButtonHidden(true)
+        }
+        .navigationBarTitle("")
+        .navigationBarHidden(true)
     }
 }
 
@@ -177,6 +186,8 @@ struct OrderButton: View {
 
 struct DrinkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        DrinkDetail(drink: drinkData.trending[0])
+        DrinkDetail(drink: drinkData.trending[0], startLesson: {
+            print("start lesson")
+        })
     }
 }
